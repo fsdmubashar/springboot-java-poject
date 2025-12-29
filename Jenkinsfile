@@ -1,5 +1,5 @@
 pipeline {   
-    agent { label 'Agent-1' }
+    agent { label 'agent-1' }
     tools{
         jdk 'jdk11'
         maven 'maven3'
